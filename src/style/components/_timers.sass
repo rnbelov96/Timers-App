@@ -1,0 +1,25 @@
+.timers
+  margin-top: 20px
+  &__item
+    @media (max-width: 576px)
+      flex-wrap: wrap
+      justify-content: flex-end
+      margin-bottom: 20px
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__countdown
+    display: flex
+    align-items: center
+    .btn
+      font-size: 13px
+  &__countdownDigits
+    font-family: Digital
+    font-size: 27px
+    margin-right: 5px
+  &__complete-text
+    margin-right: 5px
+  &__timerName
+    font-size: 25px
+    @media (max-width: 576px)
+      width: 100%
